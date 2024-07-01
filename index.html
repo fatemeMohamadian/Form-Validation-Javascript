@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="assets/icon/fontello-4bda2aec/css/fontello.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <main class="row">
+        <div class="row">
+            <section id="slide1">
+                <div class="row">
+                    <div class="mainbox">
+                        <div class="maindiv">
+                            <!-- signup card -->
+                            <div class="register">
+                                <img class="pic" src="assets/img/pic1.png" alt="">
+                                <h1>Sign up</h1>
+                                <form action="assets/php/register.php" onsubmit="return checkdata()" class="form2"
+                                    name="registerform" method="post">
+                                    <input type="text" placeholder="FIRSTNAME" name="fname" autocomplete="off">
+                                    <input type="text" placeholder="LASTNAME" name="lname" autocomplete="off">
+                                    <input type="text" placeholder="PHONENUMBER" name="phone" autocomplete="off">
+                                    <input type="text" placeholder="EMAIL" name="email" autocomplete="off">
+                                    <input type="text" placeholder="USERNAME" name="username" autocomplete="off">
+                                    <input type="text" placeholder="PASSWORD" name="password" autocomplete="off">
+                                    <span class="ic ic1"><i class="icon-eye-off"></i></span>
+                                    <span class="ic ic2"><i class="icon-eye"></i></span>
+                                    <button class="btnsignup">Signup</button>
+                                </form>
+                                <div class="box1">
+                                    <p>have an Account?</p>
+                                    <div class="text1">
+                                        <h4>Sign In</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="b b1"></span>
+                            <span class="b b2"></span>
+                            <div class="result">
+
+                            </div>
+                            <!-- signup card -->
+                            <!-- login card -->
+                            <div class="login">
+                                <img src="assets/img/pic1.png" alt="">
+                                <h1>Sign In</h1>
+                                <form action="assets/php/login.php" onsubmit="return checklogin()" class="form1"
+                                    name="loginform" method="post">
+                                    <input type="text" class="inp1" placeholder="USERNAME" name="myuser"
+                                        autocomplete="off">
+                                    <input type="text" class="inp2" placeholder="PASSWORD" name="mypass"
+                                        autocomplete="off">
+                                    <span class="icon ic1"><i class="icon-eye-off"></i></span>
+                                    <span class="icon ic2"><i class="icon-eye"></i></span>
+                                    <button>Login</button>
+                                </form>
+                                <div class="box">
+                                    <p>don't have account?</p>
+                                    <div class="text">
+                                        <h4>sign up</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="c c1"></span>
+                            <span class="c c2"></span>
+                            <!-- login card -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="foot">
+                <div class="imgbox">
+                    <img src="assets/img/1.jpg" alt="">
+                    <ul>
+                        <li><a href="https://www.instagram.com/fateme_mohamadiian.fed?igsh=YzVkODRmOTdmMw=="><i
+                                    class="icon-instagram"></i></a></li>
+                        <li><a href="http://www.linkedin.com/in/fateme-mohamadian-dev0824"><i
+                                    class="icon-linkedin-2"></i></a></li>
+                        <li><a href="https://github.com/fatemeMohamadian"><i class=" icon-github-squared"></i></a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </main>
+     <script src="assets/js/master.js"></script>
+</body>
+
+</html>

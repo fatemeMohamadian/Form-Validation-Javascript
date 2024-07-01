@@ -1,0 +1,472 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "title";
+  src: url("../font/RobotoSlab-Bold.ttf");
+}
+@font-face {
+  font-family: "project";
+  src: url("../font/JosefinSlab-Bold.ttf");
+}
+@font-face {
+  font-family: "text";
+  src: url("../font/Lobster_1.3.otf");
+}
+.row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+body {
+  background-color: rgb(35, 31, 32);
+}
+
+main {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+main > .row {
+  justify-content: center;
+  align-items: center;
+}
+main > .row > #slide1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > .row > #slide1 > .row {
+  justify-content: center;
+  align-items: center;
+}
+main > .row > #slide1 > .row .mainbox {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+}
+main > .row > #slide1 > .row .mainbox .maindiv {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .login {
+  width: 450px;
+  height: 550px;
+  -webkit-backdrop-filter: blur(40px);
+          backdrop-filter: blur(40px);
+  border: 1px solid rgba(14, 14, 14, 0.158);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  box-shadow: 0 0 100px 10px rgba(0, 0, 0, 0.2);
+  backface-visibility: hidden;
+  transition: 1s;
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .login > img {
+  position: absolute;
+  bottom: 100px;
+  right: 0;
+  width: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .login > .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 85%;
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .login > .box > p {
+  color: white;
+  font-family: "project";
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .login > .box > .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(132, 200, 234, 0.277);
+  padding: 10px 10px;
+  border-radius: 5px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .login > .box > .text:hover {
+  background-color: rgb(127, 19, 0);
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .login > .box > .text > h4 {
+  color: white;
+  font-family: "title";
+  font-size: 20px;
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .login > .form1 {
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .login > .form1 * {
+  margin: 20px 0;
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .login > .form1 .icon {
+  position: absolute;
+  cursor: pointer;
+  font-size: 35px;
+  color: rgb(150, 28, 7);
+  top: 225px;
+  right: 40px;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .login > .form1 .ic1 {
+  display: none;
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .login > .form1 > input {
+  height: 55px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(145, 145, 145, 0.122);
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-family: "title";
+  letter-spacing: 2px;
+  color: white;
+  border-radius: 5px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .login > .form1 > input:focus {
+  animation: animeinp 0.5s linear;
+  padding-left: 10px;
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .login > .form1 > input::-moz-placeholder {
+  font-size: 18px;
+  letter-spacing: 0;
+  padding-left: 8px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgba(184, 182, 182, 0.532);
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .login > .form1 > input::placeholder {
+  font-size: 18px;
+  letter-spacing: 0;
+  padding-left: 8px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgba(184, 182, 182, 0.532);
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .login > .form1 > button {
+  width: 100%;
+  padding: 12px 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: rgb(187, 68, 48);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-family: "title";
+  font-size: 20px;
+  letter-spacing: 1px;
+  transition: 0.5s;
+  opacity: 75%;
+  border-radius: 7px;
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .login > .form1 > button:hover {
+  transform: scale(0.95);
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .login > h1 {
+  color: rgb(170, 170, 170);
+  font-family: "title";
+  font-size: 50px;
+  width: 100%;
+  padding-left: 20px;
+  z-index: 1000;
+  text-transform: uppercase;
+}
+main > .row > #slide1 > .row .mainbox .maindiv .c {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: rgb(187, 68, 48);
+  display: flex;
+  z-index: -1000;
+}
+main > .row > #slide1 > .row .mainbox .maindiv .c1 {
+  top: -360px;
+  left: -120px;
+}
+main > .row > #slide1 > .row .mainbox .maindiv .c2 {
+  bottom: -360px;
+  right: -100px;
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .register {
+  width: 600px;
+  height: 550px;
+  -webkit-backdrop-filter: blur(40px);
+          backdrop-filter: blur(40px);
+  border: 1px solid rgba(14, 14, 14, 0.158);
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  display: none;
+  box-shadow: 0 0 100px 10px rgba(0, 0, 0, 0.2);
+  backface-visibility: hidden;
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .register > .pic {
+  position: absolute;
+  bottom: 150px;
+  left: 0;
+  transform: rotateY(180deg);
+  width: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .register > .form2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1000;
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .register > .form2 .ic {
+  position: absolute;
+  cursor: pointer;
+  font-size: 35px;
+  color: rgb(187, 68, 48);
+  top: 150px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .register > .form2 .ic1 {
+  display: none;
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .register > .form2 * {
+  margin: 20px 0;
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .register > .form2 > input {
+  height: 55px;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(145, 145, 145, 0.122);
+  border: none;
+  outline: none;
+  font-size: 20px;
+  margin: 15px 5px;
+  font-family: "title";
+  letter-spacing: 2px;
+  color: white;
+  border-radius: 5px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .register > .form2 > input:focus {
+  animation: animeinp 0.5s linear;
+  padding-left: 10px;
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .register > .form2 > input::-moz-placeholder {
+  font-size: 18px;
+  letter-spacing: 0;
+  padding-left: 8px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgba(206, 205, 205, 0.601);
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .register > .form2 > input::placeholder {
+  font-size: 18px;
+  letter-spacing: 0;
+  padding-left: 8px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgba(206, 205, 205, 0.601);
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .register > .form2 > button {
+  width: 80%;
+  padding: 12px 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: rgb(187, 68, 48);
+  border: none;
+  color: rgb(255, 255, 255);
+  font-family: "title";
+  font-size: 20px;
+  letter-spacing: 1px;
+  transition: 0.5s;
+  opacity: 75%;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .register > .form2 > button:hover {
+  transform: scale(0.95);
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .register > h1 {
+  color: rgb(170, 170, 170);
+  font-family: "title";
+  font-size: 50px;
+  text-align: center;
+  padding-left: 150px;
+  z-index: 1000;
+  text-transform: uppercase;
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .register > .box1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 85%;
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .register > .box1 > p {
+  color: white;
+  font-family: "project";
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .register > .box1 > .text1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(132, 200, 234, 0.277);
+  padding: 10px 10px;
+  border-radius: 5px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .register > .box1 > .text1:hover {
+  background-color: rgb(127, 19, 0);
+}
+main > .row > #slide1 > .row .mainbox .maindiv > .register > .box1 > .text1 > h4 {
+  color: white;
+  font-family: "title";
+  font-size: 20px;
+}
+main > .row > #slide1 > .row .mainbox .maindiv .result {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 350px;
+  top: -120px;
+  left: 600px;
+  box-shadow: 0 0 100px 10px rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(40px);
+          backdrop-filter: blur(40px);
+  color: white;
+  font-family: "project";
+  text-align: center;
+}
+main > .row > #slide1 > .row .mainbox .maindiv .b {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: rgb(187, 68, 48);
+  display: flex;
+  z-index: -1000;
+  display: none;
+}
+main > .row > #slide1 > .row .mainbox .maindiv .b1 {
+  top: -360px;
+  right: -200px;
+}
+main > .row > #slide1 > .row .mainbox .maindiv .b2 {
+  bottom: -360px;
+  left: -200px;
+}
+main > .row .foot {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+main > .row .foot > .imgbox {
+  width: 20%;
+  display: flex;
+  justify-content: end;
+  position: fixed;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+main > .row .foot > .imgbox:hover > ul {
+  visibility: visible;
+  opacity: 100%;
+}
+main > .row .foot > .imgbox > img {
+  width: 60%;
+  height: 60%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+main > .row .foot > .imgbox > ul {
+  list-style: none;
+  position: absolute;
+  top: 0;
+  right: 190px;
+  rotate: 15deg;
+  transform: translateY(15px);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.7s;
+}
+main > .row .foot > .imgbox > ul > li {
+  font-size: 30px;
+}
+main > .row .foot > .imgbox > ul > li:nth-of-type(2) {
+  transform: translate(10px, 15px);
+}
+main > .row .foot > .imgbox > ul > li:last-of-type {
+  transform: translate(30px, 30px);
+}
+main > .row .foot > .imgbox > ul > li:first-of-type {
+  transform: translateX(10px);
+}
+main > .row .foot > .imgbox > ul > li > a {
+  color: white;
+}
+
+.change {
+  transform: rotateY(180deg);
+}
+
+@keyframes animeinp {
+  0% {
+    transform: scale(1);
+  }
+  47% {
+    transform: scale(1);
+  }
+  53% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1.02);
+  }
+}/*# sourceMappingURL=style.css.map */
