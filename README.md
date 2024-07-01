@@ -4,12 +4,11 @@
 👩‍💻😎 [Watch Demo](https://fatememohamadian.github.io/Form-Validation/)
 
 
-![1](https://github.com/fatemeMohamadian/Form-Validation/assets/155579918/09f5c5ba-9d00-450f-83a3-b1455973af38)
-                                                        😎😉 
-![2](https://github.com/fatemeMohamadian/Form-Validation/assets/155579918/f66b9db6-a20e-4fcf-931f-2c6446f24cd5)
-
  **Run Site On Server for watch final result:**                                  
- 
+**Sign In** <video src="https://github.com/fatemeMohamadian/Form-Validation/assets/155579918/69fbad60-5a48-4d06-944f-b9ce1951f26c"></video>
+
+**Sign Up** <video src="https://github.com/fatemeMohamadian/Form-Validation/assets/155579918/ca71e42c-8b0a-4145-8ec0-a3a49d562fed"></video>
+
 
  😉Developed by <a href="https://linkedin.com/in/fateme-mohamadian-dev0824" target="blank">Fatemeh Mohamadian</a>
 
