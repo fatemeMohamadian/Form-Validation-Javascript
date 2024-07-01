@@ -5,9 +5,7 @@
 
 
  **Run Site On Server for watch final result:**                                  
-**Sign In** <video src="https://github.com/fatemeMohamadian/Form-Validation/assets/155579918/69fbad60-5a48-4d06-944f-b9ce1951f26c"></video>
 
-**Sign Up** <video src="https://github.com/fatemeMohamadian/Form-Validation/assets/155579918/ca71e42c-8b0a-4145-8ec0-a3a49d562fed"></video>
 
 
  😉Developed by <a href="https://linkedin.com/in/fateme-mohamadian-dev0824" target="blank">Fatemeh Mohamadian</a>
