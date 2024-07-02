@@ -4,7 +4,7 @@
 👩‍💻😎 [Watch Demo](https://fatememohamadian.github.io/Form-Validation-Javascript/)
 
 
- **Run Site On Server for watch final result:**                                  
+ **Run Site On Server for watch final result:**                            
  <video src="https://github.com/fatemeMohamadian/Form-Validation/assets/155579918/158fa46e-f108-4655-8edc-82c8f5c17694"></video>
 
 <video src="https://github.com/fatemeMohamadian/Form-Validation/assets/155579918/036a4ebd-2738-498b-91ad-8b4dc5b77f04"></video>
