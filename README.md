@@ -1,7 +1,7 @@
 # Form-Validation
 **Used AjaxJs Method and Regex for validation**
 
-👩‍💻😎 [Watch Demo](https://fatememohamadian.github.io/Form-Validation-Javascript/)
+👩‍💻😎 
 
 
  **Run Site On Server for watch final result:**                            
